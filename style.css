@@ -31,7 +31,11 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, .logo h1 {
+h1,
+h2,
+h3,
+h4,
+.logo h1 {
     font-family: 'Teko', sans-serif;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -95,6 +99,8 @@ section {
     display: flex;
     align-items: center;
     gap: 10px;
+    text-decoration: none !important;
+    color: var(--text-light);
 }
 
 .logo i {
@@ -542,7 +548,7 @@ section {
     margin-bottom: 10px;
 }
 
-.resource-card > p {
+.resource-card>p {
     color: var(--text-gray);
     margin-bottom: 20px;
 }
@@ -750,7 +756,8 @@ section {
     gap: 15px;
 }
 
-.portfolio-link, .drive-link {
+.portfolio-link,
+.drive-link {
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -773,7 +780,8 @@ section {
     border: 1px solid rgba(16, 185, 129, 0.3);
 }
 
-.portfolio-link:hover, .drive-link:hover {
+.portfolio-link:hover,
+.drive-link:hover {
     transform: translateY(-3px);
 }
 
@@ -861,6 +869,7 @@ footer {
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -871,9 +880,11 @@ footer {
     0% {
         box-shadow: 0 0 0 0 rgba(0, 243, 255, 0.4);
     }
+
     70% {
         box-shadow: 0 0 0 10px rgba(0, 243, 255, 0);
     }
+
     100% {
         box-shadow: 0 0 0 0 rgba(0, 243, 255, 0);
     }
@@ -885,25 +896,25 @@ footer {
         grid-template-columns: 1fr;
         gap: 40px;
     }
-    
+
     .hero-main {
         font-size: 2.8rem;
     }
-    
+
     .resources-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .routine-days {
         grid-template-columns: repeat(3, 1fr);
     }
-    
+
     .about-card {
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
-    
+
     .footer-links {
         gap: 40px;
     }
@@ -913,29 +924,29 @@ footer {
     .nav-links {
         display: none;
     }
-    
+
     .mobile-menu-btn {
         display: block;
     }
-    
+
     .stats {
         flex-direction: column;
         gap: 20px;
     }
-    
+
     .status-summary {
         grid-template-columns: 1fr;
     }
-    
+
     .routine-days {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .footer-container {
         flex-direction: column;
         gap: 40px;
     }
-    
+
     .footer-links {
         flex-wrap: wrap;
         gap: 30px;
@@ -946,23 +957,23 @@ footer {
     .hero {
         padding-top: 120px;
     }
-    
+
     .hero-main {
         font-size: 2.2rem;
     }
-    
+
     .section-header h2 {
         font-size: 2rem;
     }
-    
+
     .routine-days {
         grid-template-columns: 1fr;
     }
-    
+
     .about-card {
         padding: 25px;
     }
-    
+
     .about-links {
         flex-direction: column;
     }
