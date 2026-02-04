@@ -20,6 +20,7 @@
     --chemistry: #10b981;
     --math: #3b82f6;
     --higher-math: #f59e0b;
+    --ssc-guide: #ec4899;
 }
 
 body {
@@ -30,6 +31,7 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 }
+
 
 h1,
 h2,
@@ -496,6 +498,10 @@ section {
     border-top: 4px solid var(--higher-math);
 }
 
+.resource-card.ssc-guide {
+    border-top: 4px solid var(--ssc-guide);
+}
+
 .card-icon {
     width: 70px;
     height: 70px;
@@ -523,6 +529,10 @@ section {
     background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(245, 158, 11, 0.05));
 }
 
+.resource-card.ssc-guide .card-icon {
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(236, 72, 153, 0.05));
+}
+
 .card-icon i {
     font-size: 2rem;
 }
@@ -541,6 +551,10 @@ section {
 
 .resource-card.higher-math .card-icon i {
     color: var(--higher-math);
+}
+
+.resource-card.ssc-guide .card-icon i {
+    color: var(--ssc-guide);
 }
 
 .resource-card h3 {
